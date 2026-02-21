@@ -39,6 +39,7 @@ public class certificate {
         if(this.id==c.id && this.name.equals(c.name)){
             return true;
         }
+        if(this.id==0)return false;
         return false;
     }
 
